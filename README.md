@@ -4,9 +4,10 @@ Deno 공식 릴리즈 1.0.0버전 기준 보일러 플레이트입니. 1.0.0버�
 
 # Project <!-- TOC -->
 
-- [Setting](#Setting)다
+- [Setting](#Setting)
 - [Docker](#Docker)
 - [Deno](#Deno)
+- [Tip](#Tip)
 
 <!-- /TOC -->
 
@@ -23,3 +24,6 @@ Deno 공식 릴리즈 1.0.0버전 기준 보일러 플레이트입니. 1.0.0버�
 1. **루트 디렉토리**에서 `./bin/dev.sh exec deno bash` 를 통해 도커 내부 진입
 2. ./start.sh 로 실행
 3. http://localhost:8809 접속
+
+#Tip 
+`http://localhost:8081`에 express-mongo로 접근하여 mongodb를 직접 접근 할 수 있습니다.
